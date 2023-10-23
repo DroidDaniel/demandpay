@@ -1,0 +1,21 @@
+.sub_txt{
+    color: #3332cc;
+    font-weight: bold;
+}
+
+.dktp_video{
+    display: block;
+}
+
+.mob_video{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .dktp_video{
+        display: none;
+    }
+    .mob_video{
+        display: block;
+    }
+}
