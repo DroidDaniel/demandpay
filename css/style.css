@@ -248,7 +248,7 @@ nav a{
     visibility: hidden;
 }
 .slick-vertical .slick-slide
-{
+{-
     display: block;
     height: auto;
     border: 1px solid transparent;
@@ -275,6 +275,15 @@ nav a{
 
 .slick-dots .slick-active{
     background-color: #424242;
+}
+
+.client_comments li{
+    margin-bottom: 10px;
+}
+
+.client_comments li span{
+    font-weight: bold;
+    color: #3332cc;
 }
 
 /*********Testimonial Slider End*********/
