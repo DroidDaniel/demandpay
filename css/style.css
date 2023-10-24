@@ -50,6 +50,15 @@ nav{
 
 nav a{
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+nav a:hover{
+    color: #3332cc !important;
+}
+
+nav a.active{
+    color: #3332cc !important;
 }
 
 @media screen and (max-width:600px) {
@@ -305,7 +314,11 @@ nav a{
 
 /*********Contact Form Start*********/
 
-.alert{
+.btn_submit{
+    cursor: pointer;
+}
+
+.success_msg{
     opacity: 0;
     transition: all .3s ease;
     color: #4BB543;
