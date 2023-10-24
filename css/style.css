@@ -248,7 +248,7 @@ nav a{
     visibility: hidden;
 }
 .slick-vertical .slick-slide
-{-
+{
     display: block;
     height: auto;
     border: 1px solid transparent;
@@ -287,3 +287,13 @@ nav a{
 }
 
 /*********Testimonial Slider End*********/
+.social_media_icon{
+    width: 20px;
+    opacity: .8;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.social_media_icon:hover{
+    opacity: 1;
+}
