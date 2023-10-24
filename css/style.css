@@ -287,6 +287,9 @@ nav a{
 }
 
 /*********Testimonial Slider End*********/
+
+/*********Footer Start*********/
+
 .social_media_icon{
     width: 20px;
     opacity: .8;
@@ -297,3 +300,99 @@ nav a{
 .social_media_icon:hover{
     opacity: 1;
 }
+
+/*********Footer End*********/
+
+/*********Contact Form Start*********/
+
+.alert{
+    opacity: 0;
+    transition: all .3s ease;
+    color: #4BB543;
+}
+
+.form_field{
+    position: relative;
+}
+
+.form_field label{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    font-size: 12px;
+    color: #dd0735;
+    bottom: 0;
+}
+
+.form_field input.error{
+    border: solid 1px #dd0735;
+}
+
+/*********Contact Form End*********/
+
+/*********Solution section Start*********/
+
+.solution_card{
+    transition: all .5s ease;
+}
+
+.solution_card:hover{
+    background: #6688fe;
+    color: #fff;
+}
+
+/*********Solution section End*********/
+
+
+/*********Banner Anime Start*********/
+
+#container-anim {
+    color:#999;
+    text-transform: uppercase;
+    font-size:30px;
+    font-weight:bold; 
+    width:100%;
+    display:block;
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:0 12px;
+    height:45px;
+    line-height: 45px;
+    margin-bottom:45px;
+    display:inline-block;
+    border-radius: 3px;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+
+/*********Banner Anime End*********/
