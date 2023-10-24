@@ -46,7 +46,7 @@ $(document).ready(function () {
       //message: "Please Enter your message",
     },
     submitHandler: function () {
-      $successMsg.css("opacity", "1");
+      $successMsg.addClass("show_msg");
       // Get the form data
       var data = $("form").serialize();
       $.ajax({
