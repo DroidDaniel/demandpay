@@ -32,7 +32,7 @@ $(document).ready(function () {
   });
   $form.validate({
     rules: {
-      "entry.90727839": {
+      "entry.1780998507": {
         required: true,
         email: true,
       },
@@ -50,7 +50,7 @@ $(document).ready(function () {
       // Get the form data
       var data = $("form").serialize();
       $.ajax({
-        url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTcTrFlZFB-YNgbx4hdlyK8aamI99twc0Xdr_ylAwr02UuwQ/formResponse",
+        url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScHy3NYuq8a793TO9a2KobiLke87con-_qB6d5nUXdYLhWxFw/formResponse",
         type: "POST",
         data: data,
         success: function (response) {
